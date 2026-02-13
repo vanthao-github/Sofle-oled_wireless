@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', /, TAB, Q, W, F, P, G, J, L, U, Y, ;, '=', LCTRL, A, S, S, T, D, H, N, E, I, O, RETURN, LEFT SHIFT,
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', /, TAB, Q, W, F, P, G, J, L, U, Y, ;, '=', LCTRL, A, R, S, T, D, H, N, E, I, O, RETURN, LEFT SHIFT,
     Z, X, C, V, B, MUTE, '', K, M, ',', ., '''', RSHFT, CAPS, LALT, LCMD, lower, SPACE, SPACE, raise, BACKSPACE, \, '-']
   lower:
   - '`'
@@ -94,7 +94,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - PG DN
+  - BACKSPACE
   - LEFT
   - DOWN
   - RIGHT
@@ -113,13 +113,13 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - '&sleep'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&sleep'
-  - SLEEP MODE
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
