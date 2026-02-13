@@ -66,7 +66,7 @@
             bindings = <
 &kp ESC         &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                              &kp N6     &kp N7         &kp N8         &kp N9     &kp N0         &kp SLASH
 &kp TAB         &kp Q   &kp W     &kp F     &kp P     &kp G                               &kp J      &kp L          &kp U          &kp Y      &kp SEMICOLON  &kp EQUAL
-&kp LCTRL       &kp A   &kp S     &kp S     &kp T     &kp D                               &kp H      &kp N          &kp E          &kp I      &kp O          &kp RETURN
+&kp LCTRL       &kp A   &kp R     &kp S     &kp T     &kp D                               &kp H      &kp N          &kp E          &kp I      &kp O          &kp RETURN
 &kp LEFT_SHIFT  &kp Z   &kp X     &kp C     &kp V     &kp B      &kp C_MUTE    &none      &kp K      &kp M          &kp COMMA      &kp DOT    &kp SQT        &kp RSHFT
                         &kp CAPS  &kp LALT  &kp LCMD  &mo LOWER  &kp SPACE     &kp SPACE  &mo RAISE  &kp BACKSPACE  &kp BACKSLASH  &kp MINUS
             >;
@@ -107,11 +107,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6                                       &kp F7            &kp F8             &kp F9    &kp F10    &kp F11  &kp F12
-&trans  &none   &none   &none   &trans          &trans                                       &kp PG_UP         &trans             &kp UP    &trans     &none    &trans
-&trans  &none   &none   &none   &trans          &none                                        &kp PG_DN         &kp LEFT           &kp DOWN  &kp RIGHT  &none    &kp BSPC
-&trans  &none   &none   &none   &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &none      &trans   &sleep
-                &trans  &trans  &trans          &trans           &sleep    &kp C_SLEEP_MODE  &trans            &trans             &trans    &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6                             &kp F7            &kp F8             &kp F9    &kp F10    &kp F11  &kp F12
+&trans  &none   &none   &none   &trans          &trans                             &kp PG_UP         &trans             &kp UP    &trans     &none    &trans
+&trans  &none   &none   &none   &trans          &none                              &kp BACKSPACE     &kp LEFT           &kp DOWN  &kp RIGHT  &none    &kp BSPC
+&trans  &none   &none   &none   &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &none      &trans   &none
+                &trans  &trans  &trans          &trans           &none     &sleep  &trans            &trans             &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
