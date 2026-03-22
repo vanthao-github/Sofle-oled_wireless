@@ -45,8 +45,8 @@ layers:
   - ''
   - ''
   - '&delete_line'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
   - ''
   - '7'
   - '8'
